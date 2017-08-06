@@ -17,4 +17,4 @@ japan_gapminder <- gapminder[gapminder$country == "Japan", ]
 
 ggplot(japan_gapminder, aes(x=year,y= lifeExp)) +
   geom_line(color = "coral") +
-  xlab("Life expectancy_troubles") + ylab ("Year")
+  xlab("Life expectancy_troubles_issues") + ylab ("Year")
